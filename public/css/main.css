@@ -1,0 +1,49 @@
+body {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+}
+
+
+/* Header CSS */
+
+header {
+    background-color: #ccc;
+    display: flex;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+main {
+    background-color: cornsilk;
+    padding: 20px;
+}
+
+.layout-sidebar {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr;
+}
